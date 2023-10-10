@@ -92,3 +92,59 @@ main {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* stili bottoncini */
+
+.editorial {
+    background-color: hsl(204.14deg 85.79% 61.37%);
+    font-style: oblique;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.q1 {
+    background-color: hsl(277, 34%, 50%);
+    font-style: oblique;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.recruiting {
+    background-color: hsl(135, 69%, 33%);
+    font-style: oblique;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.mobile {
+    background-color: hsl(34, 72%, 72%);
+    font-style: oblique;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.website{
+    background-color: hsl(317, 65%, 63%);
+    font-style: oblique;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sales {
+    background-color: hsl(98, 68%, 83%);
+    font-style: oblique;
+    font-size: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
