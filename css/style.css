@@ -8,7 +8,9 @@
 }
 
 body {
-    background-color: hsl(200deg 20% 97.06%)
+    background-color: hsl(200deg 20% 97.06%);
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /* stili header */
@@ -25,6 +27,7 @@ header{
 #logo-title {
     font-size: 40px;
     vertical-align: middle;
+    font-weight: bold;
 }
 
 
@@ -39,21 +42,53 @@ main {
 
 .container {
    background-color: white;
-   padding: 20px;
-   margin: auto;
 }
 
 /* stili task section */
  #main-task {
     text-align: left;
+    padding: 20px;
+    border-bottom: 3px solid hsl(200deg 20% 97.06%);
  }
 
+#push {
+    background-color: hsl(204.14deg 85.79% 61.37%);
+    color: white;
+    padding: 6px;
+ }
+
+ #add-section {
+    padding: 6px;
+ }
+
+ /* stili main section */
+
+ .green-color {
+    color:green;
+}
+
+.red-color {
+    color:red;
+}
+
+ .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+ }
+
+ .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }    
 
 
+.task {
+    padding: 25px 50px;
+}
 
-
-
-
-
-/* stili main section */
-
+.titolo-task {
+    font-size: 20px;
+    font-weight: bold;
+}

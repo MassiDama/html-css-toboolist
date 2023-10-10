@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>   
+
     <link rel="stylesheet" href="css/style.css">
     <title>Toboolist</title>
 </head>
@@ -21,15 +24,51 @@
       
      <main>
         <div class="container">
+           
             <!-- task section -->
-            <section id="main-task">
-              
-                <button id="push">Add Task</button>
-                <input type="text" placeholder="Add Section">
             
+            <section id="main-task">
+               <button id="push">Add Task</button>
+               <input id="add-section" type="text"   placeholder="Add Section">
             </section>
             
+            <!-- task new -->
 
+            <section class="task">
+               <p> <i class="arrow down"></i> <span class="titolo-task">New Task</span></p>
+               <i class='fa fa-check-circle green-color'></i>
+               <span>Quarterly Newsletter</span>
+            </section>
+            
+            <!-- task today -->
+
+            <section class="task">
+                <p> <i class="arrow down"></i> <span class="titolo-task">Today</span></p>
+                <i class='fa fa-check-circle green-color'></i>
+                <span>Recruiting blog post</span> <br>
+                <i class='fa fa-check-circle green-color'></i>
+                <span>Mobile app luauanch</span> <br>
+                <i class='fa fa-times-circle red-color'></i>
+                <span>Interview Jhon H. </span> <br>
+                <i class='fa fa-check-circle green-color'></i>
+                <span>Summit updateto mobile storefronts</span>
+            </section>
+
+            <!-- task futura -->
+
+            <section class="task">
+                <p> <i class="arrow down"></i> <span class="titolo-task">Upcoming</span></p>
+                <i class='fa fa-times-circle red-color'></i>
+                <span>Schedule meeting with Alex</span> <br>
+                <i class='fa fa-check-circle green-color'></i>
+                <span>Homepage refresh</span> <br>
+                <i class='fa fa-check-circle green-color'></i>
+                <span>Onboard new Sales team members </span> <br>
+                <i class='fa fa-check-circle green-color'></i>
+                <span>Review editorial calendar</span>
+
+            </section>
+            
         </div>
         
 
