@@ -1,0 +1,59 @@
+
+/* stili ereditati da tutta la struttura */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(200deg 20% 97.06%)
+}
+
+/* stili header */
+
+header{
+    background-color: white;
+}
+
+#logo {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#logo-title {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+
+/* stile contenuto pricipale */
+
+main {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+
+.container {
+   background-color: white;
+   padding: 20px;
+   margin: auto;
+}
+
+/* stili task section */
+ #main-task {
+    text-align: left;
+ }
+
+
+
+
+
+
+
+
+/* stili main section */
+
