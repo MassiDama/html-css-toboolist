@@ -37,6 +37,7 @@ main {
     margin-top: 40px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 20px;
    
 }
 
@@ -47,18 +48,23 @@ main {
 /* stili task section */
  #main-task {
     text-align: left;
-    padding: 20px;
+    padding: 25px;
+    padding-left: 50px;
     border-bottom: 3px solid hsl(200deg 20% 97.06%);
  }
 
 #push {
     background-color: hsl(204.14deg 85.79% 61.37%);
     color: white;
-    padding: 6px;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
  }
 
  #add-section {
     padding: 6px;
+    border-radius: 5px;
+    border-color: hsl(200deg 20% 97.06%);
  }
 
  /* stili main section */
@@ -93,58 +99,63 @@ main {
     font-weight: bold;
 }
 
+i {
+    padding: 10px;
+}
+
 /* stili bottoncini */
 
 .editorial {
     background-color: hsl(204.14deg 85.79% 61.37%);
-    font-style: oblique;
+    font-style: normal;
     font-size: 10px;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 7px;
 }
 
 .q1 {
     background-color: hsl(277, 34%, 50%);
-    font-style: oblique;
+    font-style: normal;
     font-size: 10px;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 7px;
 }
 
 .recruiting {
     background-color: hsl(135, 69%, 33%);
-    font-style: oblique;
+    font-style: normal;
     font-size: 10px;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 7px;
 }
 
 .mobile {
     background-color: hsl(34, 72%, 72%);
-    font-style: oblique;
+    font-style: normal;
     font-size: 10px;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 7px;
 }
 
 .website{
     background-color: hsl(317, 65%, 63%);
-    font-style: oblique;
+    font-style: normal;
     font-size: 10px;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 7px;
 }
 
 .sales {
     background-color: hsl(98, 68%, 83%);
-    font-style: oblique;
+    font-style: normal;
     font-size: 10px;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 7px;
 }
+
